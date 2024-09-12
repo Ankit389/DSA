@@ -71,16 +71,31 @@ using namespace std;
       
 
   /// loops
-   int n =  10;
+//    int n =  10;
 
-    int count =1;
-     while(count  <=n){
-        cout<<count << " ";
-        count++;
-     }
-     cout << endl;
-      return 0;
+//     int count =1;
+//      while(count  <=n){
+//         cout<<count << " ";
+//         count++;
+//      }
+//      cout << endl;
+//       return 0;
     
+
+    // sum   of b numbars  1 to n
+
+     
+     int  n=50;
+     int   sum =0;
+     for(int i=0; i<=n;i++){
+        sum +=i;
+
+     }
+       
+       cout<<"sum = "<< sum <<endl;
+
+
+     return 0; 
 
 
 
