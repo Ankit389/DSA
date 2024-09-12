@@ -70,19 +70,19 @@ using namespace std;
 
       
 
-//   /// loops
-//    int n =  10;
+  /// loops
+   int n =  10;
 
-//     int count =1;
-//      while(count  <=n){
-//         cout<<count << " ";
-//         count++;
-//      }
-//      cout << endl;
-//       return 0;
+    int count =1;
+     while(count  <=n){
+        cout<<count << " ";
+        count++;
+     }
+     cout << endl;
+      return 0;
     
 
 
-    
+
 
   }
