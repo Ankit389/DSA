@@ -85,19 +85,40 @@ using namespace std;
     // sum   of b numbars  1 to n
 
      
-     int  n=50;
-     int   sum =0;
-     for(int i=0; i<=n;i++){
-        sum +=i;
+    //  int  n=50;
+    //  int   sum =0;
+    //  for(int i=0; i<=n;i++){
+    //     sum +=i;
 
-     }
+    //  }
        
-       cout<<"sum = "<< sum <<endl;
+    //    cout<<"sum = "<< sum <<endl;
 
 
-     return 0; 
+
+
+     int   n=9;
+     bool isPrime = true;
+
+     for(int    i=2; i<=n-1;i++){
+         if(n % i ==0){
+            isPrime = false;
+            break;
+         }
+     }
+     if(isPrime == true) {
+          cout << "prime no\n";
+
+     }else {
+        cout <<"non  prime no\n";
+     }
+
+    //  return 0; 
 
 
 
 
   }
+
+
+
